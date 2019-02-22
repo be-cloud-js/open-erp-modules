@@ -1,7 +1,7 @@
 # -*- encoding: utf-8 -*-
 ##############################################################################
 #
-#    OpenERP, Open Source Management Solution    
+#    OpenERP, Open Source Management Solution
 #    Copyright (c) 2010-2012 Elico Corp. All Rights Reserved.
 #
 #    Author: Yannick Gouin <yannick.gouin@elico-corp.com>
@@ -32,7 +32,10 @@
     """,
     "author": "be-cloud.be (Jerome Sonnet)",
     "website": "http://www.be-cloud.be",
-    'depends': ['account'],
+    'depends': [
+        'account',
+        'hr_expense',
+    ],
     'init_xml': [],
     'data': [
         'financial_reporting_enhancement.xml',
